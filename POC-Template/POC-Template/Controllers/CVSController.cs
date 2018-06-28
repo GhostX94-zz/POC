@@ -6,25 +6,25 @@ using System.Web.Mvc;
 
 namespace POC_Template.Controllers
 {
-    public class UsuariosController : Controller
+    public class CVSController : Controller
     {
-        // GET: Usuarios
+        // GET: CVS
         public ActionResult Index()
         {
             return View();
         }
 
-        public ActionResult VerUsuarios()
+        public ActionResult VerCVS()
         {
             return View();
         }
 
-        public ActionResult AltaUsuarios()
+        public ActionResult AltaCVS()
         {
             return View();
         }
 
-        public ActionResult AccesoUsuarios()
+        public ActionResult ModificarCVS()
         {
             return View();
         }

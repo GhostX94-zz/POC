@@ -196,15 +196,15 @@
                         <ul class="sub-menu">
                             <li> @Html.ActionLink("Ver Empleados", "VerEmpleado", "Empleado")</li>
                             <li>@Html.ActionLink("Alta Empleados", "AltaEmpleado", "Empleado")</li>
-                            <li><a href="events.html">Modificación de Empleados</a></li>
-                            <li><a href="file-dashboard.html">Alta tipo de Empleados</a></li>
+                            <li>@Html.ActionLink("Modificar Empleados", "ModificarEmpleado", "Empleado")</li>
+                            <li>@Html.ActionLink("Alta TipoEmpleados", "TipoEmpleado", "Empleado")</li>
                         </ul>
                     </li>
                     <li>
                         <a href="javascript:void(0)">Usuarios</a>
                         <ul class="sub-menu">
-                            <li><a href="blog-dashboard.html">Accesos</a></li>
-                            <li><a href="blog-post.html">Alta Usuarios</a></li>
+                            <li>@Html.ActionLink("Acceso Uduarios", "AccesoUsuarios", "Usuarios")</li>
+                            <li>@Html.ActionLink("Alta Uduarios", "AltaUsuarios", "Usuarios")</li>
                             <li>@Html.ActionLink("Ver Usuarios", "VerUsuarios", "Usuarios")</li>
                         </ul>
                     </li>
@@ -212,9 +212,9 @@
                         <a href="javascript:void(0)">Curriculums</a>
 
                         <ul class="sub-menu">
-                            <li><a href="ui_kit.html">Alta CV's</a></li>
-                            <li><a href="alerts.html">Ver CV's</a></li>
-                            <li><a href="collapse.html">Modificar CV's</a></li>
+                            <li>@Html.ActionLink("Alta CV's", "AltaCVS", "CVS")</li>
+                            <li>@Html.ActionLink("Ver CV's", "VerCVS", "CVS")</li>
+                            <li>@Html.ActionLink("Modificar CV's", "ModificarCVS", "CVS")</li>
                         </ul>
                     </li>
                     <li>
