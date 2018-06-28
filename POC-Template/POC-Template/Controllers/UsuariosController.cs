@@ -18,5 +18,15 @@ namespace POC_Template.Controllers
         {
             return View();
         }
+
+        public ActionResult AltaUsuarios()
+        {
+            return View();
+        }
+
+        public ActionResult AccesoUsuarios()
+        {
+            return View();
+        }
     }
 }

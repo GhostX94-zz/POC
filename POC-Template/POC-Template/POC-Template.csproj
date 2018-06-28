@@ -177,6 +177,7 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\SampleDirection.cs" />
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
+    <Compile Include="Controllers\CVSController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\EmpleadoController.cs" />
     <Compile Include="Controllers\UsuariosController.cs" />
@@ -433,6 +434,13 @@
     <Content Include="Views\Home\SideBar.cshtml" />
     <Content Include="Views\Usuarios\VerUsuarios.cshtml" />
     <Content Include="Views\Empleado\AltaEmpleado.cshtml" />
+    <Content Include="Views\CVS\VerCVS.cshtml" />
+    <Content Include="Views\CVS\AltaCVS.cshtml" />
+    <Content Include="Views\CVS\ModificarCVS.cshtml" />
+    <Content Include="Views\Empleado\ModificarEmpleado.cshtml" />
+    <Content Include="Views\Usuarios\AltaUsuarios.cshtml" />
+    <Content Include="Views\Empleado\TipoEmpleado.cshtml" />
+    <Content Include="Views\Usuarios\AccesoUsuarios.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

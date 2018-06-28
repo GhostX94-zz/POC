@@ -18,5 +18,15 @@ namespace POC_Template.Controllers
         {
             return View();
         }
+
+        public ActionResult ModificarEmpleado()
+        {
+            return View();
+        }
+
+        public ActionResult TipoEmpleado()
+        {
+            return View();
+        }
     }
 }
